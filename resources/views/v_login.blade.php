@@ -24,6 +24,8 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+  <!-- new edit -->
+
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
@@ -34,7 +36,7 @@
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Login to start your session</p>
+    <p class="login-box-msg">Login To Start Your Session</p>
 
     <form method="POST" action="{{ route('login') }}">
       @csrf
@@ -60,7 +62,7 @@
         <div class="col-xs-8">
           <div class="checkbox icheck">
             <label>
-              <!--<input type="checkbox"> Remember Me-->
+              <!--<input type="checkbox"> Remember Me -->
             </label>
           </div>
         </div>
